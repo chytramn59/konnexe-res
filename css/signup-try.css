@@ -1,0 +1,160 @@
+.bg-color{
+  background-color:white;
+}
+.navbar-custom{
+  margin-top:-46px;
+}
+.color-custom a{
+  font-size:18px;
+  color:#25877B ! important;
+  margin-top:4px;
+}
+.row-custom{
+	border:1px solid #ddd;
+	margin-top:50px;
+}
+.sign-up-header {
+    color: #9097A3;
+    font-size: 25px;
+    font-family: Gotham-Medium;
+    margin-top:25px;
+}
+.or{
+	 margin-top:30px;
+	 font-size: 20px;
+	  color: #9097A3;
+	  margin-left:43px;
+
+}
+.button {
+      background-color:#1E51AC; 
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      margin:9px 2px 4px 2px;
+    }
+    .button1 {border-radius: 30px;}
+ /*hr {
+  border: none;
+  height: 1px;
+  width:100%;
+  color:  #d9d9d9; 
+  background-color:  #d9d9d9;
+}*/
+.row-border{
+	border-bottom:1px solid #ddd;
+}
+.margin-pop{
+	background-image: url("../images/Menu_Green.png");
+	/*background-position:center right; */     
+	background-position: 95% 60%;
+  	background-repeat: no-repeat;
+  margin-bottom:-13px;
+  padding: 26px;
+  width:450px;
+  margin-top:20px;
+}
+@media only screen and (max-device-width: 640px) and (min-width: 340px){
+  .margin-pop {
+  		width:200px;
+  	}}
+  	@media only screen and (max-device-width: 640px) and (min-width: 340px){
+  .or {
+  		text-align:center;
+  	}}
+  	.margin-images{
+	background-image: url("../images/Company_Green.png");
+	/*background-position:center right; */     
+	background-position: 95% 60%;
+  	background-repeat: no-repeat;
+  margin-bottom:-13px;
+  padding: 26px;
+  width:450px;
+  margin-top:20px;
+}
+@media only screen and (max-device-width: 640px) and (min-width: 340px){
+  .margin-images {
+  		width:200px;
+  	}}
+  		.phone-edit{
+	background-image: url("../images/Industry_white.png");
+	/*background-position:center right; */     
+	background-position: 95% 60%;
+  	background-repeat: no-repeat;
+  margin-bottom:-13px;
+  padding: 26px;
+  width:450px;
+  margin-top:20px;
+}
+@media only screen and (max-device-width: 640px) and (min-width: 340px){
+  .phone-edit {
+  		width:200px;
+  	}}
+
+ .city-custom{
+	background-image: url("../images/people_green_small.png");*/
+	background-position:center right;     
+	background-position: 95% 60%;
+  	background-repeat: no-repeat;
+  margin-bottom:-13px;
+  padding: 26px;
+  width:300px;
+  margin-top:20px;
+}
+@media only screen and (max-device-width: 640px) and (min-width: 340px){
+  .city-custom{
+  		width:200px;
+  	}}
+  	.ak-custom{
+	/*background-image: url("../images/people_green_small.png");*/
+	/*background-position:center right; */     
+	/*background-position: 95% 60%;
+  	background-repeat: no-repeat;*/
+  margin-bottom:-13px;
+  padding: 26px;
+  width:100px;
+  margin-top:20px;
+}
+.email-edit{
+	background-image: url("../images/Company_Green.png");
+	/*background-position:center right; */     
+	background-position: 95% 60%;
+  	background-repeat: no-repeat;
+  margin-bottom:-13px;
+  padding: 26px;
+  width:450px;
+  margin-top:20px;
+}
+@media only screen and (max-device-width: 640px) and (min-width: 340px){
+  .email-edit {
+  		width:200px;
+  	}}
+  	.ind-edit{
+	background-image: url("../images/Industry_white.svg");
+	/*background-position:center right; */     
+	background-position: 95% 60%;
+  	background-repeat: no-repeat;
+  margin-bottom:-13px;
+  padding: 26px;
+  width:450px;
+  margin-top:20px;
+}
+@media only screen and (max-device-width: 640px) and (min-width: 340px){
+  .ind-edit {
+  		width:200px;
+  	}}
+
+ .check{
+    margin-left: 89px;
+    margin-top:12px;
+  }
+  .button-right{
+    color:grey;
+    padding: 19px 41px 10px 40px;
+    margin-top: 20px;
+  }
