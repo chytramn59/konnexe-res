@@ -8,315 +8,199 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="./css/signup-try.css">
+  <script src=" https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-
   <body>
-    
-     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="index.html"> <img class="img-responsive" src="./images/Page 1.png"></a>
-      </div>
+   <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"> <img class="img-responsive" src="./images/Page 1.png"></a>
+    </div>
 
-      <div class="collapse navbar-collapse navbar-custom" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="bg-color"><a href="#"><img  class="img-responsive" src="./images/social_linkedin.png">
-          </a></li>
-          <li class="bg-color"><a href="#"><img class="img-responsive" src="./images/social_twitter.png">
-          </a></li>
-          <li class="color-custom"><a href="#">LOG IN</a></li>
-          <li class="color-custom"><a href="#">SIGN UP</a></li>
-        </ul> 
+    <div class="collapse navbar-collapse navbar-custom" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="bg-color"><a href="#"><img  class="img-responsive" src="./images/social_linkedin.png">
+        </a></li>
+        <li class="bg-color"><a href="#"><img class="img-responsive" src="./images/social_twitter.png">
+        </a></li>
+        <li class="color-custom"><a href="#">LOG IN</a></li>
+        <li class="color-custom"><a href="index.html">SIGN UP</a></li>
+      </ul> 
+    </div>
+  </nav><br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 col-md-2 col-xs-2 col-lg-2"></div>
+      <div class="col-sm-8 col-md-8 col-xs-8 col-lg-8 row-custom">
+       <form name="registration">
+         <div class="row row-border">
+           <div class="col-sm-4 col-md-4 col-xs-12 col-lg-4">
+             <p class="sign-up-header">Sign up with Email</p>
+           </div>
+           <div class="col-sm-4 col-md-4 col-xs-12 col-lg-4">
+             <p class="or">Or</p>
+           </div>
+           <div class="col-sm-4 col-md-4 col-xs-12 col-lg-4">
+            <button class="button button1"><span class="fa fa-linkedin" aria-hidden="true"></span>Connect with Linkedin</button>
+          </div>
+        </div>
+        <div class="row">
+         <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+           <div class="row">
+             <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+             <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+              <div class="form-group">
+                <input type="text" class="form-control margin-pop"  placeholder="First Name" name="firstname">
+              </div>
+            </div>
+            <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+          </div>
+          <div class="row">
+           <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+           <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+            <div class="form-group">
+              <input type="text" class="form-control margin-pop"  placeholder="Last Name" name="lastname">
+            </div>
+          </div>
+          <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+        </div>
+        <div class="row">
+         <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+         <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+          <div class="form-group">
+            <input type="text" class="form-control margin-images"  placeholder="Title" name="title">
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
       </div>
-    </nav><br>
-    <br>
-    <br>
-    <div class="container">
       <div class="row">
-        <div class="col-sm-2 col-md-2 col-xs-2 col-lg-2"></div>
-         <div class="col-sm-8 col-md-8 col-xs-8 col-lg-8 row-custom">
-           <form>
-             <div class="row row-border">
-               <div class="col-sm-4 col-md-4 col-xs-12 col-lg-4">
-                 <p class="sign-up-header">Sign up with Email</p>
-               </div>
-               <div class="col-sm-4 col-md-4 col-xs-12 col-lg-4">
-                 <p class="or">Or</p>
-               </div>
-               <div class="col-sm-4 col-md-4 col-xs-12 col-lg-4">
-                  <button class="button button1"><span class="fa fa-linkedin" aria-hidden="true"></span>Connect with Linkedin</button>
-               </div>
-             </div>
-             <div class="row">
-               <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
-                 <div class="row">
-                   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                    <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
-                      <div class="form-group">
-            <input type="text" class="form-control margin-pop" id="email-check" placeholder="First Name" name="firstname">
-             </div>
-                    </div>
-                     <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                 </div>
-                  <div class="row">
-                   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                    <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
-                      <div class="form-group">
-            <input type="text" class="form-control margin-pop" id="email-check" placeholder="Last Name" name="lastname">
-             </div>
-                    </div>
-                     <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                    <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
-                      <div class="form-group">
-            <input type="text" class="form-control margin-images" id="email-check" placeholder="Title" name="title">
-             </div>
-                    </div>
-                     <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                    <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
-                      <div class="form-group">
-            <input type="text" class="form-control margin-images" id="email-check" placeholder="Company" name="company">
-             </div>
-                    </div>
-                     <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                    <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
-                      <div class="form-group">
-            <input type="text" class="form-control phone-edit" id="email-check" placeholder="Phone" name="phone">
-             </div>
-                    </div>
-                     <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                    <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
-                      
-                      <div class="form-group">
-            <input type="text" class="form-control city-custom" id="email-check" placeholder="City" name="city">
-           
-             </div>
-           
-                    </div>
-                     <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2">
-                         <div class="form-group">
-           <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle button-right" type="button" data-toggle="dropdown">AK
-     <span class="caret"></span></button>
-     <ul class="dropdown-menu">
-      <li><a href="#">AA</a></li>
-      <li><a href="#">CS</a></li>
-      <li><a href="#">SC</a></li>
-    </ul>
+       <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+       <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+        <div class="form-group">
+          <input type="text" class="form-control margin-images"  placeholder="Company" name="company">
+        </div>
+      </div>
+      <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+    </div>
+    <div class="row">
+     <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+     <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+      <div class="form-group">
+        <input type="text" class="form-control phone-edit"  placeholder="Phone" name="phone">
+      </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
   </div>
-             </div>
-                     </div>
-                 </div>
-
-                 <div class="row">
-                   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                    <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
-                      <div class="form-group">
-            <input type="email" class="form-control email-edit" id="email-check" placeholder="EMail" name="email">
-             </div>
-                    </div>
-                     <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                    <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
-                      <div class="form-group">
-            <input type="text" class="form-control ind-edit" id="email-check" placeholder="Industry" name="industry">
-             </div>
-                    </div>
-                     <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12 check">
-                      <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-                       <label for="checkbox_id">I have a referral code</label>
-                    </div>
-                 </div>
-                 <div class="row">
-                   <div  class="col-sm-12 col-md-12">
-  <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-  <label for="checkbox_id">I agree to Konnexe <a>Terms of service</a></label>
+  <div class="row">
+   <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+   <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+    <div class="form-group">
+      <input type="text" class="form-control city-custom"  placeholder="City" name="city">
+    </div>
+  </div>
+  <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2">
+   <div class="form-group">
+     <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle button-right" type="button" data-toggle="dropdown">AK
+       <span class="caret"></span></button>
+       <ul class="dropdown-menu">
+        <li><a href="#">AA</a></li>
+        <li><a href="#">CS</a></li>
+        <li><a href="#">SC</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
-                 </div>
+</div>
 
-
-
-
-
-
-
-
-
-
-               </div>
-               <div class="col-sm-4 col-md-4 col-xs-12 col-lg-4"></div>
-             </div>
-             
-
-
-
-
-
-
-           </form>
-         </div>
-          <div class="col-sm-2 col-md-2 col-xs-2 col-lg-2"></div>
-      </div>
-    </div>
-    <!-- <div class="row">
-      <div class="col-sm-2 col-md-2"></div>
-      <div id="form" class="col-sm-8 col-md-8">
-        <div class="row">
-          <div class="col-sm-6 col-md-6">
-            <h1 style="color:#74839A">Sign up with Email</h1>
-          </div>
-          <div class="col-sm-2 col-md-2">
-            <h2 style="color:#74839A">Or</h2>
-          </div>
-          <div class="col-sm-4 col-md-4">
-            <button class="button button1"><p class="fa fa-linkedin" aria-hidden="true"></p>Connect with Linkedin</button>
-          </div>
-        </div>
-        <hr>
-        <div class="row">
-         <div class="col-sm-9 col-md-9">  
-          <div class="col-sm-12 col-md-12">
-            <input type="text" class="form-control margin-pop" id="first-name" placeholder='First Name ' name="First Name">
-            <div class="hide" id="fn-error" />
-            <span>Please enter proper first name</span>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12">
-          <input type="text" class="form-control margin-pop" id="last-name" placeholder="Last Name" name="Last Name">
-          <div class="hide" id="ln-error" />
-          <span>Please enter proper last name</span>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-12">
-        <input type="text" class="form-control margin-pop" id="title-display" placeholder="Title" name="Title">
-        <div class="hide" id="title-error" />
-        <span>Please enter proper title</span>
-      </div>
-    </div> 
-    <div class="col-sm-12 col-md-12">
-      <input type="text" class="form-control margin-pop" id="company-details" placeholder="Company" name="Company">
-      <div class="hide" id="company-error" />
-      <span>Please enter proper company details</span>
-    </div>
+<div class="row">
+ <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+ <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+  <div class="form-group">
+    <input type="email" class="form-control email-edit" placeholder="EMail" name="email">
   </div>
-  <div class="col-sm-12 col-md-12">
-    <input type="text" class="form-control margin-pop" id="phone-number" placeholder="Phone" name="Phone">
-    <div class="hide" id="number-error" />
-    <span>Please enter number in proper format</span>
-  </div>
+</div>
+<div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
 </div>
 <div class="row">
- <div class="col-sm-9 col-md-9">
-  <div class="dropdown button-custom">
-    <button class="btn btn-default dropdown-toggle button-pad" type="button" data-toggle="dropdown">City
-     <span class="caret"></span></button>
-     <ul class="dropdown-menu">
-      <li><a href="#">Mandya</a></li>
-      <li><a href="#">Mysore</a></li>
-      <li><a href="#">Bangalore</a></li>
-    </ul>
+ <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+ <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+  <div class="form-group">
+    <input type="text" class="form-control ind-edit"  placeholder="Industry" name="industry">
   </div>
 </div>
-<div class="col-sm-3 col-md-3">
-  <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle button-right" type="button" data-toggle="dropdown">AK
-     <span class="caret"></span></button>
-     <ul class="dropdown-menu">
-      <li><a href="#">AA</a></li>
-      <li><a href="#">CS</a></li>
-      <li><a href="#">SC</a></li>
-    </ul>
-  </div>
+<div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
 </div>
-</div>
-<div class="col-sm-12 col-md-12">
-  <input type="Email" class="form-control margin-pop" id="email-check" placeholder="Email" name="Email">
-  <div class="hide" id="email-error" />
-  <span>Please enter proper email format</span>
-</div>
-</div> 
-<div class="col-sm-12 col-md-12">
-  <input type="text" class="form-control margin-pop" id="industry-name" placeholder="Industry" name="Industry">
-  <div class="hide" id="industry-error" />
-  <span>Improper Industry Name</span>
-</div>
-</div>
-<div class="col-sm-12 col-md-12">
-  <div class="dropdown button-custom">
-    <button class="btn btn-default dropdown-toggle button-company" type="button" data-toggle="dropdown">Company Size
-     <span class="caret"></span></button>
-     <ul class="dropdown-menu">
-      <li><a href="#">10</a></li>
-      <li><a href="#">100</a></li>
-      <li><a href="#">200</a></li>
-    </ul>
-  </div>
-</div>
-<div id="check" class="col-sm-12 col-md-12">
+<div class="row">
+ <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12 check">
   <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
   <label for="checkbox_id">I have a referral code</label>
 </div>
-<div id="check" class="col-sm-12 col-md-12">
+</div>
+<div class="row">
+ <div  class="col-sm-12 col-md-12 col-xs-12 col-lg-12 checkbox-fix">
   <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
   <label for="checkbox_id">I agree to Konnexe <a>Terms of service</a></label>
 </div>
+</div>
 <div class="row">
-  <div id="robot-border" class="col-sm-4 col-md-4">
-   <!  <textarea name="comment" form="usrform">I'am not a robot</textarea> -->
-   <!-- <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-   <label for="checkbox_id">I am a robot</label>
-   <img  style="width:50px"src="./images/hero-recaptcha-invisible.gif">
- </div>
- <div class="col-sm-8 col-md-8"></div> 
-</div>     
-<div class="col-sm-12 col-md-12">
- <button id="submit" class="btn btn-success" >Sign up</button>
+ <div  class="col-sm-12 col-md-12 col-xs-12 col-lg-12 robot-border">
+  <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
+  <label for="checkbox_id">I am a robot</label>
+  <img  style="width:60px" class="img-responsive image-float" src="./images/hero-recaptcha-invisible.gif">
+</div>
+</div>  
+<div class="row">
+  <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12">
+    <button id="submit" class="btn btn-success but-edit" >Sign up</button>
+  </div>
 </div>
 </div>
+<div class="col-sm-4 col-md-4 col-xs-12 col-lg-4"></div>
 </div>
-<div class="col-sm-3 col-md-3"></div>
+</form>
 </div>
+<div class="col-sm-2 col-md-2 col-xs-2 col-lg-2"></div>
 </div>
-<div class="col-sm-2 col-md-2"></div> 
+<!-- <div class="row foot-fix">
+  <div class="col-sm-6 col-md-6 col-xs-6 col-lg-6">
+    <ul>
+      <li>Privacy Police</li>
+      <li>User Agreement</li>
+      <li class="last-check">About</li>
+    </ul>
+  </div>
+  <div class="col-sm-6 col-md-6 col-xs-6 col-lg-6">
+    <footer class="foot"> &copy; COPYRIGHT KONNEXE.ALL RIGHTS RESERVED</footer>
+  </div>
+</div> -->
 </div>
-<div class="row" id="mid"></div>
 <footer>
-  <div class="row last">
-    <div class="col-sm-6 col-md-6">
-      <ul>
-        <li>Privacy Police</li>
-        <li>User Agreement</li>
-        <li id="last-check">About</li>
-      </ul>
-    </div>
-
-    <div class="col-sm-6 col-md-6">
-      <footer> &copy; COPYRIGHT KONNEXE.ALL RIGHTS RESERVED</footer>
+  <div class="foot-fix">
+    <div class="container con-fix">
+      <div class="row last">
+        <div class="col-sm-6 col-md-6 col-xs-6 col-lg-6">
+          <ul>
+            <li>Privacy Police</li>
+            <li>User Agreement</li>
+            <li class="last-check">About</li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-6 col-xs-6 col-lg-6">
+          <footer> &copy; COPYRIGHT KONNEXE.ALL RIGHTS RESERVED</footer>
+        </div>
+      </div>
     </div>
   </div>
-</footer> --> 
+</footer>
 </body>
 </html>  
 <script type="text/javascript" src="js/signup.js"></script>
